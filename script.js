@@ -1,12 +1,12 @@
-const d = document;
-const textArea = d.querySelector(".form__input");
-const imagenMuneco = d.querySelector(".result__img");
-const loaderBatman = d.querySelector(".loader");
-const resultadoTitulo = d.querySelector(".result__title");
-const resultadoText = d.querySelector(".result__text");
-const botonEncriptar = d.querySelector(".form__btn");
-const botonDesencriptar = d.querySelectorAll(".form__btn");
-const botonCopiar = d.querySelector(".result__btn");
+var d = document;
+var textArea = d.querySelector(".form__input");
+var imagenMuneco = d.querySelector(".result__img");
+var loaderBatman = d.querySelector(".loader");
+var resultadoTitulo = d.querySelector(".result__title");
+var resultadoText = d.querySelector(".result__text");
+var botonEncriptar = d.querySelector(".form__btn");
+var botonDesencriptar = d.querySelectorAll(".form__btn");
+var botonCopiar = d.querySelector(".result__btn");
 
 const llaves = [
   ["e", "enter"],
